@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ejercicio07": {
+      "commandName": "Project",
+      "commandLineArgs": "frase fresa"
+    }
+  }
+}

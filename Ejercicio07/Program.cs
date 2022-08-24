@@ -18,12 +18,14 @@ namespace Ejercicio07
             char[] cadena1;
             char[] cadena2;
 
-            Console.Write("Ingrese la primer cadena: ");
-            a = Console.ReadLine();
+            //Console.Write("Ingrese la primer cadena: ");
+            //a = Console.ReadLine();
+            a = args[0];
             cadena1 = a.ToCharArray();
 
-            Console.Write("Ingrese la segunda cadena: ");
-            b = Console.ReadLine();
+            // Console.Write("Ingrese la segunda cadena: ");
+            //b = Console.ReadLine();
+            b = args[1];
             cadena2 = b.ToCharArray();
 
             if ((a.Length == b.Length))
