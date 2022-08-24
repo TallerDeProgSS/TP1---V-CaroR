@@ -1,0 +1,15 @@
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\obj\Debug\net6.0\Ejercicio07-bien.csproj.AssemblyReference.cache
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\obj\Debug\net6.0\Ejercicio07-bien.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\obj\Debug\net6.0\Ejercicio07-bien.AssemblyInfoInputs.cache
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\obj\Debug\net6.0\Ejercicio07-bien.AssemblyInfo.cs
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\obj\Debug\net6.0\Ejercicio07-bien.csproj.CoreCompileInputs.cache
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\bin\Debug\net6.0\Ejercicio07-bien.exe
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\bin\Debug\net6.0\Ejercicio07-bien.deps.json
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\bin\Debug\net6.0\Ejercicio07-bien.runtimeconfig.json
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\bin\Debug\net6.0\Ejercicio07-bien.dll
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\bin\Debug\net6.0\Ejercicio07-bien.pdb
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\obj\Debug\net6.0\Ejercicio07-bien.dll
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\obj\Debug\net6.0\refint\Ejercicio07-bien.dll
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\obj\Debug\net6.0\Ejercicio07-bien.pdb
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\obj\Debug\net6.0\Ejercicio07-bien.genruntimeconfig.cache
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio08-bien\obj\Debug\net6.0\ref\Ejercicio07-bien.dll

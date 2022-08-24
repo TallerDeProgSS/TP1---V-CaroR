@@ -1,0 +1,15 @@
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\bin\Debug\net6.0\Ejercicio01uno.exe
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\bin\Debug\net6.0\Ejercicio01uno.deps.json
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\bin\Debug\net6.0\Ejercicio01uno.runtimeconfig.json
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\bin\Debug\net6.0\Ejercicio01uno.dll
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\bin\Debug\net6.0\Ejercicio01uno.pdb
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\obj\Debug\net6.0\Ejercicio01uno.csproj.AssemblyReference.cache
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\obj\Debug\net6.0\Ejercicio01uno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\obj\Debug\net6.0\Ejercicio01uno.AssemblyInfoInputs.cache
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\obj\Debug\net6.0\Ejercicio01uno.AssemblyInfo.cs
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\obj\Debug\net6.0\Ejercicio01uno.csproj.CoreCompileInputs.cache
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\obj\Debug\net6.0\Ejercicio01uno.dll
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\obj\Debug\net6.0\refint\Ejercicio01uno.dll
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\obj\Debug\net6.0\Ejercicio01uno.pdb
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\obj\Debug\net6.0\Ejercicio01uno.genruntimeconfig.cache
+C:\Users\Carolina r\source\repos\proyectos\TrabajoPractica01\Ejercicio01\obj\Debug\net6.0\ref\Ejercicio01uno.dll
