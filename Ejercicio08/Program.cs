@@ -6,42 +6,59 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio08
+//usuario ingresa por teclado la dimensión del triángulo
+// Cntr K U     Cntr K C
+
+//Filas y columnas comienzan con indice 0.
+
+namespace ejercicio08
 {
-    class Program
+    class Program08
     {
+        private const string V = "";
+
         static void Main(string[] args)
         {
-            int cant = 0;
-
-            Console.Write("Ingrese dimensión: ");
-            int n = int.Parse(Console.ReadLine());
-            int[,] matriz = new int[n,n]; // crea una matriz n x n
-
-           // Console.Write("  "); //espacio principal
-            for (int fila = 0; fila < n; fila++ ) //filas
+            Console.Write("Ingresar orden del triangulo: ");
+            int orden = Convert.ToInt32(Console.ReadLine());
+            string filas = "";
+            int[,] M = new int[orden, orden];
+            for (int i = 0; i < orden; i++)
             {
-                
-                for (int columna = 0; columna <= fila ; columna++)  //columnas
+                M[i, 0] = 1;
+                M[i, i] = 1;
+
+                if (i >= 2)
                 {
-                    if (fila == columna || columna == 0)
+                    for (int column = 1; column < i; column++)
                     {
-                        Console.Write(" ");
-                        matriz[fila, columna] = 1;
-                        Console.Write(" ");
+                        M[i, column] = M[i - 1, column] + M[i - 1, column - 1];
                     }
-                    else
-                    {
-                        Console.Write(" ");
-                        matriz[fila, columna] = matriz[fila - 1, columna - 1] + matriz[fila - 1, columna];  //suma de numeros
-                        Console.Write(" ");
-                    }
-                  Console.Write( matriz[fila, columna]);
+                }
+            }
+            string espacioBlanco = "   ";  //espacio entre cada elemento, tiene que ser el doble que espacioBlanco2.
+            string espacioBlanco2 = "  ";  //espacio al principio de cada fila para poder formar el triangulo equilatero
+            string espacioBlanco3 = " ";  //La suma de todos los espacioBlanco2
+            int OrdenCopy = orden;
+
+            for (int columna = 0; columna < orden; columna++)
+            {
+                for (int contador = OrdenCopy; contador != 1; contador = contador - 1)
+                {
+                    espacioBlanco3 += espacioBlanco2;
                 }
 
-                Console.WriteLine(""); // cuando termine el bucle, pasa para el siguiente renglón
-
+                for (int fila = 0; fila < columna + 1; fila++)
+                {
+                    filas = filas + espacioBlanco + Convert.ToInt32(M[columna, fila]);
+                }
+                filas = espacioBlanco3 + filas;
+                Console.WriteLine(filas);
+                filas = V;
+                espacioBlanco3 = " ";
+                OrdenCopy--;
             }
+
         }
     }
 }

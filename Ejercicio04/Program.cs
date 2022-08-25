@@ -21,29 +21,29 @@ namespace Ejercicio04
                 residuo = (numero % 4);  // si el residuo da 0, es divisible por 4 entonces puede ser un año bisiesto
                 condicion = (residuo == 0); // la condicion, ya que no se puede comparar un double en el if
 
-                if (condicion)
+                if (condicion)          //verifica que la condición sea verdadera
                 {
                     residuo = (numero % 100); // si es divisible por 100 puede ser o no un año bisiesto, entonces hay que seguir las pruebas
                     condicion = (residuo == 0);
 
-                    if (condicion)
+                    if (condicion)          //verifica que la condición sea verdadera
                     {
-                        residuo = (numero % 400);
-                        condicion = (residuo == 0);
+                        residuo = (numero % 400);       //si es divisible por 400, es bisiesto.
+                        condicion = (residuo == 0);     
 
-                        if (condicion)
+                        if (condicion)      //verifica que la condición sea verdadera
                         {
-                            Console.WriteLine(numero);
+                            Console.Write(numero + " - ");     //es bisiesto, entonces se muestra por pantalla.
                         }
 
                     }
                     else  // el año no es divisible por 100, entonces tiene 366 días, es bisiesto
                     {
-                        Console.WriteLine(numero);
+                        Console.Write(numero + " - ");         //imprime el año bisiesto.
                     }
 
                 }
-                numero++;  // numero + 1
+                numero++;  
             }
         }
     }

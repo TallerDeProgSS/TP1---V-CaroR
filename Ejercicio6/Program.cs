@@ -11,18 +11,18 @@ namespace Ejercicio06
     {
         static void Main(string[] args)
         {
-            double n = 0;
+            double radio = 0;
             double area = 0;
             double perimetro = 0;
 
             Console.Write("Ingrese un numero: ");
-            n = Convert.ToDouble(Console.ReadLine());
+            radio = Convert.ToDouble(Console.ReadLine());
 
-            area = (Math.Pow(n, 2) * Math.PI);
-            Console.WriteLine("El área es: " + area);
+            area = (Math.Pow(radio, 2) * Math.PI);          //se calcula el área la cual es la multiplicación del radio al cuadrado por PI
+            Console.WriteLine("El área es: " + area);    //muestra en pantalla el resultado          
 
-            perimetro = (2 * n * Math.PI);
-            Console.WriteLine("El perímetro es: "+ perimetro);
+            perimetro = (2 * radio * Math.PI);                      // calcula el perímetro de un circulo que está dada por 2*  radio * PI
+            Console.WriteLine("El perímetro es: "+ perimetro);  //muestra en pantalla el resultado 
 
 
         }

@@ -14,10 +14,10 @@ namespace Ejercicio01dos
             string valor;
 
             Console.WriteLine("Ingrese un valor: ");
-            valor = Console.ReadLine();   //sale un valor string y no se puede poner int (creo)
-            numero = int.Parse(valor);    //se pasa de string a int (lo que necesitamos)
-
-            if ((numero == 1))
+            valor = Console.ReadLine();   //sale un valor string y no se puede poner int 
+            numero = int.Parse(valor);   //se pasa de string a int (lo que necesitamos)
+                                         // Si el número ingresado se encuentra entre uno y nueve, se va a devolver ese mismo número escrito en letras.
+            if ((numero == 1)) 
             {
                 Console.WriteLine("UNO");
             }
@@ -53,7 +53,7 @@ namespace Ejercicio01dos
             {
                 Console.WriteLine("NUEVE");
             }
-            else
+            else                            //Si el número es mayor que nueve, el programa va a devolver la cadena "OTRO"
             {
                 Console.WriteLine("OTROS");
             }

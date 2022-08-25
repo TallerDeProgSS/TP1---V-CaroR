@@ -19,21 +19,20 @@ namespace Ejercicio05
             int num0 = 0;
             int num1= 1;
             
-           
 
             Console.Write("Ingrese un valor: ");
-            n = Convert.ToInt32(Console.ReadLine());                     // para no tener problemas con que n es int
+            n = Convert.ToInt32(Console.ReadLine());                     
 
 
             do  
             {
-                sumatoria = num1 + num0;
-                contador += 1;                                                    //cantidad de vueltas que da
-                num0 = num1;
-                num1 = sumatoria;
+                sumatoria = num1 + num0;                            //suma los dos últimos valores que contienen las variables
+                contador += 1;                                       //cantidad de vueltas que da
+                num0 = num1;                                        //a num0 se le asigna el valor de la variable num1
+                num1 = sumatoria;                                   // a num1 se le asigna el valor de "sumatoria"
 
-                Console.WriteLine(num0);                                         // se muesta el primer numero
-            } while (contador <= n - 1 );
+                Console.WriteLine(num0);                             // se muesta el primer resultado que se dió
+            } while (contador <= n - 1 );                           //finaliza cuando la variable "contador" supera (n - 1)
 
 
         }

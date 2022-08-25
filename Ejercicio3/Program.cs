@@ -12,21 +12,25 @@ namespace Ejercicio03
         static void Main(string[] args)
         {
             
-            int contador = 1; // para que empiece la sumatoria desde el 1
-            double n = 0;
+            int contador = 0; 
+            double valor = 0;
             double sumatoria = 0;
             
             Console.Write("Ingrese un valor: ");
-            n = Convert.ToDouble(Console.ReadLine());  // para no tener problemas con que n es int
+            valor = Convert.ToDouble(Console.ReadLine()); 
 
-            while (contador != n + 1)   // si n=1, tiene que dar una vuelta si o si, entonces se hace n+1
-            {
-                sumatoria = sumatoria + (Math.Pow(-1, contador)) / ((2 * contador) + 1);  // Formula de Lebniz
-                contador += 1;
+            while (contador <= valor)   //Se utiliza un ciclo que va desde cero hasta el límite establecido.
+            {                           
+                sumatoria += (Math.Pow(-1, contador)) / ((2 * contador) + 1);  // Cada valor que toma la variable 'contador' es utilizado para 
+                                                                               //calcular la fórmula de Lebniz. Cada resultado se suma a la variable 'sumatoria'.
+                contador++;                                                   
             }
 
-            Console.WriteLine("El valor de pi es: " + sumatoria);
+            Console.WriteLine("El valor de pi es: " + sumatoria);   //una vez que finaliza el cálculo, el resultado es mostrado por pantalla
 
+            double porcentaje = (double)((sumatoria * 100) / Math.PI);
+            Console.Write("Siendo PI el 100%, el porcentaje de la sumatoria es {0}", porcentaje);       //Utilizando PI como 100%, se calcula el porcentaje
+            Console.Write("%.");                                                                        // del resultado obtenido en el ciclo.
         }
     }
 }

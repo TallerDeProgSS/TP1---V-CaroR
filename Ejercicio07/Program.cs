@@ -18,38 +18,35 @@ namespace Ejercicio07
             char[] cadena1;
             char[] cadena2;
 
-            //Console.Write("Ingrese la primer cadena: ");
-            //a = Console.ReadLine();
             a = args[0];
             cadena1 = a.ToCharArray();
 
-            // Console.Write("Ingrese la segunda cadena: ");
-            //b = Console.ReadLine();
+
             b = args[1];
             cadena2 = b.ToCharArray();
 
-            if ((a.Length == b.Length))
+            if ((a.Length == b.Length))     //verifica que ambos string tengan igual longitud
             {
-                Array.Sort(cadena1);
-                Array.Sort(cadena2);
+                Array.Sort(cadena1);        //agrega a la lista
+                Array.Sort(cadena2);        //agrega a la lista
 
-                a = string.Join("", cadena1);
-                b = string.Join("", cadena2);
+                a = string.Join("", cadena1);   //concatena los elementos
+                b = string.Join("", cadena2);   //concatena los elementos
 
-                iguales = a.SequenceEqual(b);
+                iguales = a.SequenceEqual(b);       //verifica si son iguales
 
-                if (iguales)
+                if (iguales)           //verifica que la condición sea verdadera
                 {
-                    Console.WriteLine("Anagrama");
+                    Console.WriteLine("Anagrama");  //si cumple muestra en pantalla que son anagramas
                 }
                 else
                 {
-                    Console.WriteLine("No son anagramas");
+                    Console.WriteLine("No son anagramas");      //en caso de no cumplir
                 }
             }
             else
             {
-                Console.WriteLine("No son anagramas");
+                Console.WriteLine("No son anagramas");  //si tiene diferente longitud muestra que no lo son
 
 
             }

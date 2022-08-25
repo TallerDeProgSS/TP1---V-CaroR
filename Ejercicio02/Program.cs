@@ -13,35 +13,35 @@ namespace Ejercicio02
         {
             int inferior, superior, promedio;
             int suma = 0;
-            int contador = 0;
             string valor1, valor2;
 
             Console.Write("Ingrese limite inferior: ");
-            valor1 = Console.ReadLine();   //sale un valor string y no se puede poner int (creo)
+            valor1 = Console.ReadLine();   //sale un valor string y no se puede poner int 
             inferior = int.Parse(valor1);    //se pasa de string a int (lo que necesitamos)
 
             Console.Write("Ingrese limite superior: ");
-            valor2 = Console.ReadLine();   //sale un valor string y no se puede poner int (creo)
+            valor2 = Console.ReadLine();   //sale un valor string y no se puede poner int 
             superior = int.Parse(valor2);    //se pasa de string a int (lo que necesitamos)
 
+            int contador = inferior;
             if ((inferior < superior))
             {
                
-                while (contador != superior)
+                while (contador <= superior)            //el buque finaliza al superar a "superior"
                 {
-                    suma += (inferior + contador);
-                    contador += 1;
+                    suma = (suma + contador);
+                    contador ++;
                 }
                 Console.WriteLine("El resultado es: "+ suma);
-                double total = (inferior + superior) / 2;  // double se usa para representar numero reales.
-                Console.WriteLine("Promedio: " + total);
-                Console.WriteLine("Minimo: " + inferior);
-                Console.WriteLine("Maximo: " + superior);
-                
+                double total = (inferior + superior) / 2;  
+                Console.WriteLine("Promedio: " + total);    // calcula el promedio de los numeros ingresados
+                Console.WriteLine("Minimo: " + inferior);   //imprime el número minimo que se ingresó por consola
+                Console.WriteLine("Maximo: " + superior);   //imprime el número máximo que se ingresó por consola.
+
             }
             else
             {
-                Console.WriteLine("No se puede calcular");
+                Console.WriteLine("No se puede calcular");       //en caso de que valor2 sea menos que valor1 muestra este mensaje
             }
 
 
